@@ -56,15 +56,29 @@
     })[char]);
   }
 
-  function safeImage(url) {
-    const fallback = "assets/sayur-asem.jpg";
-    try {
-      const parsed = new URL(url, window.location.href);
-      return ["https:", "http:"].includes(parsed.protocol) ? parsed.href : fallback;
-    } catch {
+  
+function safeImage(url) {
+  const fallback = "assets/sayur-asem.jpg";
+
+  if (!url || !String(url).trim()) {
+    return fallback;
+  }
+
+  const imageUrl = String(url).trim();
+
+  try {
+    const parsed = new URL(imageUrl, window.location.href);
+
+    if (!["http:", "https:"].includes(parsed.protocol)) {
       return fallback;
     }
+
+    return parsed.href;
+  } catch {
+    return fallback;
   }
+}
+
 
   function showToast(message) {
     const toast = $("#toast");
