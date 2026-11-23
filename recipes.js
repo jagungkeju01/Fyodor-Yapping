@@ -99,6 +99,13 @@ const RECIPES = [
     ingredients: ["6 buah nugget ayam", "4 buah sosis", "150 g kentang goreng beku", "6 buah chicken popcorn atau camilan pilihan", "Saus tomat secukupnya", "Mayones secukupnya", "Minyak secukupnya untuk memasak"],
     steps: ["Siapkan semua bahan sesuai petunjuk kemasan.", "Goreng atau panggang nugget hingga matang.", "Masak sosis hingga matang dan berwarna kecokelatan.", "Goreng kentang hingga renyah.", "Masak chicken popcorn hingga matang sempurna.", "Tiriskan semua bahan dan tata di piring saji.", "Tambahkan saus tomat dan mayones, lalu sajikan selagi hangat."]
   },
+    {
+    id: "ciu-sehat", name: "Ciu Sehat", category: "Minuman", author: "TINGGSFOOD", time: 10, servings: 2,
+    image: "ciu-sehat.jpg",
+    description: "Minuman dengan nama Ciu Sehat. Deskripsi dan komposisi perlu disesuaikan dengan minuman pada gambar.",
+    ingredients: ["Bahan minuman sesuai resep asli", "Bahan cair sesuai resep asli", "Es batu secukupnya, opsional"],
+    steps: ["Siapkan bahan sesuai resep asli.", "Campurkan bahan dengan takaran yang sesuai.", "Aduk hingga tercampur rata.", "Sajikan sesuai petunjuk resep."]
+  },
 ];
 
 
