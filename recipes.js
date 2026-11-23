@@ -69,7 +69,7 @@ const RECIPES = [
     description: "Ati ampela berbumbu rempah yang dibungkus daun pisang dan dikukus hingga bumbu meresap. Aroma daun pisang menambah cita rasanya.",
     ingredients: ["300 g ati ampela ayam, bersihkan", "2 lembar daun salam", "2 batang serai, iris tipis", "Daun pisang untuk membungkus", "5 siung bawang merah", "3 siung bawang putih", "2 cm kunyit", "2 butir kemiri", "Garam dan gula secukupnya"],
     steps: ["Rebus ati ampela dengan daun salam hingga matang, lalu tiriskan dan potong.", "Haluskan bawang merah, bawang putih, kunyit, kemiri, garam, dan sedikit gula.", "Campur ati ampela dengan bumbu halus dan irisan serai.", "Letakkan campuran di atas daun pisang, lalu bungkus dan sematkan.", "Kukus selama 25–30 menit hingga bumbu meresap.", "Opsional: panggang sebentar sebelum disajikan."]
-  }
+  },
 
   {
     id: "kue-cubit", name: "Kue Cubit", category: "Kue", author: "TINGGSFOOD", time: 25, servings: 4,
@@ -99,7 +99,6 @@ const RECIPES = [
     ingredients: ["6 buah nugget ayam", "4 buah sosis", "150 g kentang goreng beku", "6 buah chicken popcorn atau camilan pilihan", "Saus tomat secukupnya", "Mayones secukupnya", "Minyak secukupnya untuk memasak"],
     steps: ["Siapkan semua bahan sesuai petunjuk kemasan.", "Goreng atau panggang nugget hingga matang.", "Masak sosis hingga matang dan berwarna kecokelatan.", "Goreng kentang hingga renyah.", "Masak chicken popcorn hingga matang sempurna.", "Tiriskan semua bahan dan tata di piring saji.", "Tambahkan saus tomat dan mayones, lalu sajikan selagi hangat."]
   },
-  
 ];
 
 
