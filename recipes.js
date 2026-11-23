@@ -105,8 +105,14 @@ const RECIPES = [
     description: "Minuman dengan nama Ciu Sehat. Deskripsi dan komposisi perlu disesuaikan dengan minuman pada gambar.",
     ingredients: ["Bahan minuman sesuai resep asli", "Bahan cair sesuai resep asli", "Es batu secukupnya, opsional"],
     steps: ["Siapkan bahan sesuai resep asli.", "Campurkan bahan dengan takaran yang sesuai.", "Aduk hingga tercampur rata.", "Sajikan sesuai petunjuk resep."]
- 
     },
+    {
+    id: "ciu-sehat", name: "Ciu Sehat", category: "Soto & Sup", author: "TINGGSFOOD", time: 10, servings: 2,
+    image: "ciu-sehat.jpg",
+    description: "Minuman yang ditambahkan ke koleksi TINGGSFOOD.",
+    ingredients: ["Bahan sesuai resep asli"],
+    steps: ["Siapkan bahan sesuai resep asli.", "Sajikan sesuai petunjuk resep."]
+  },
 ];
 
 
@@ -118,5 +124,4 @@ const CATEGORIES = [
   { name: "Camilan", icon: "🥟", description: "Teman santai" },
   { name: "Soto & Sup", icon: "🍜", description: "Kuah hangat" },
   { name: "Mie", icon: "🍝", description: "Praktis dan gurih" }
-  { name: "Minuman", icon: "🥤", description: "Minuman segar" },
 ];
