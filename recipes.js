@@ -183,8 +183,6 @@ const RECIPES = [
       "Tambahkan saus tomat dan mayones, lalu sajikan selagi hangat."
     ]
   },
-
-  
 ];
 
 
