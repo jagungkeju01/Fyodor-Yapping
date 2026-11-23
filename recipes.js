@@ -113,6 +113,13 @@ const RECIPES = [
     ingredients: ["Bahan sesuai resep asli"],
     steps: ["Siapkan bahan sesuai resep asli.", "Sajikan sesuai petunjuk resep."]
   },
+    {
+    id: "amer-sehat", name: "Amer Sehat", category: "Soto & Sup", author: "TINGGSFOOD", time: 10, servings: 2,
+    image: "amer-sehat.jpg",
+    description: "Minuman yang ditambahkan ke koleksi TINGGSFOOD.",
+    ingredients: ["Bahan sesuai resep asli"],
+    steps: ["Siapkan bahan sesuai resep asli.", "Sajikan sesuai petunjuk resep."]
+  },
 ];
 
 
