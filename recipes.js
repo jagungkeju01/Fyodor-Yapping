@@ -70,7 +70,123 @@ const RECIPES = [
     ingredients: ["300 g ati ampela ayam, bersihkan", "2 lembar daun salam", "2 batang serai, iris tipis", "Daun pisang untuk membungkus", "5 siung bawang merah", "3 siung bawang putih", "2 cm kunyit", "2 butir kemiri", "Garam dan gula secukupnya"],
     steps: ["Rebus ati ampela dengan daun salam hingga matang, lalu tiriskan dan potong.", "Haluskan bawang merah, bawang putih, kunyit, kemiri, garam, dan sedikit gula.", "Campur ati ampela dengan bumbu halus dan irisan serai.", "Letakkan campuran di atas daun pisang, lalu bungkus dan sematkan.", "Kukus selama 25–30 menit hingga bumbu meresap.", "Opsional: panggang sebentar sebelum disajikan."]
   }
+
+
+  {
+    id: "kue-cubit",
+    name: "Kue Cubit",
+    category: "Kue",
+    author: "TINGGSFOOD",
+    time: 25,
+    servings: 4,
+    image: "kue-cubit.jpg",
+    description: "Kue cubit rumahan dengan tekstur lembut dan rasa manis. Cocok disajikan sebagai camilan sore dengan topping sesuai selera.",
+    ingredients: [
+      "100 g tepung terigu",
+      "75 g gula pasir",
+      "2 butir telur",
+      "100 ml susu cair",
+      "1/2 sdt baking powder",
+      "1/2 sdt vanili",
+      "2 sdm margarin cair",
+      "Meses atau keju untuk topping"
+    ],
+    steps: [
+      "Kocok telur dan gula hingga tercampur rata.",
+      "Masukkan tepung terigu, baking powder, dan vanili.",
+      "Tuangkan susu sedikit demi sedikit sambil diaduk hingga halus.",
+      "Tambahkan margarin cair dan aduk rata.",
+      "Panaskan cetakan, olesi tipis dengan margarin, lalu tuang adonan.",
+      "Masak dengan api kecil hingga matang. Tambahkan topping sesuai selera."
+    ]
+  },
+  {
+    id: "mie-bangladesh",
+    name: "Mie Bangladesh",
+    category: "Mie",
+    author: "TINGGSFOOD",
+    time: 20,
+    servings: 2,
+    image: "mie-bangladesh.jpg",
+    description: "Mie berbumbu rempah dengan rasa gurih dan pedas. Tingkat kepedasan dapat disesuaikan dengan selera.",
+    ingredients: [
+      "2 bungkus mi instan",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "Cabai merah sesuai selera",
+      "1/2 sdt bubuk kari",
+      "Sawi secukupnya",
+      "Air secukupnya",
+      "Minyak untuk menumis"
+    ],
+    steps: [
+      "Haluskan bawang merah, bawang putih, dan cabai.",
+      "Panaskan minyak, lalu tumis bumbu hingga harum.",
+      "Tambahkan bubuk kari dan aduk rata.",
+      "Masukkan telur, lalu orak-arik hingga matang.",
+      "Tambahkan air dan bumbu mi sesuai petunjuk kemasan.",
+      "Masukkan mi dan sawi, lalu masak hingga bumbu meresap dan kuah mengental.",
+      "Sajikan selagi hangat."
+    ]
+  },
+  {
+    id: "croissant",
+    name: "Croissant Mentega",
+    category: "Camilan",
+    author: "TINGGSFOOD",
+    time: 35,
+    servings: 4,
+    image: "croissant.jpg",
+    description: "Pastry berlapis dengan aroma mentega dan tekstur renyah di bagian luar. Resep praktis ini menggunakan puff pastry siap pakai.",
+    ingredients: [
+      "1 lembar puff pastry siap pakai",
+      "1 butir telur untuk olesan",
+      "1 sdm susu cair",
+      "Gula halus secukupnya, opsional"
+    ],
+    steps: [
+      "Cairkan puff pastry sesuai petunjuk kemasan, tetapi jaga agar tetap dingin.",
+      "Potong pastry menjadi segitiga memanjang.",
+      "Gulung dari sisi lebar menuju ujung segitiga.",
+      "Susun di loyang beralas kertas panggang.",
+      "Campurkan telur dan susu, lalu oleskan tipis pada permukaan pastry.",
+      "Panggang mengikuti petunjuk kemasan hingga mengembang dan berwarna keemasan.",
+      "Dinginkan sebentar sebelum disajikan."
+    ]
+  },
+  {
+    id: "mix-plater",
+    name: "Mix Platter",
+    category: "Camilan",
+    author: "TINGGSFOOD",
+    time: 25,
+    servings: 3,
+    image: "mix-plater.jpg",
+    description: "Sajian camilan kombinasi dengan aneka makanan gurih dan renyah. Cocok untuk teman berkumpul atau hidangan bersama.",
+    ingredients: [
+      "6 buah nugget ayam",
+      "4 buah sosis",
+      "150 g kentang goreng beku",
+      "6 buah chicken popcorn atau pilihan camilan lainnya",
+      "Saus tomat secukupnya",
+      "Mayones secukupnya",
+      "Minyak secukupnya untuk memasak"
+    ],
+    steps: [
+      "Siapkan semua bahan sesuai petunjuk pada kemasan.",
+      "Goreng atau panggang nugget hingga matang.",
+      "Masak sosis hingga matang dan berwarna kecokelatan.",
+      "Goreng kentang hingga renyah.",
+      "Masak chicken popcorn hingga matang sempurna.",
+      "Tiriskan semua bahan dan tata di satu piring saji.",
+      "Tambahkan saus tomat dan mayones, lalu sajikan selagi hangat."
+    ]
+  },
+
+  
 ];
+
 
 const CATEGORIES = [
   { name: "Masakan Rumahan", icon: "🍲", description: "Menu sehari-hari" },
