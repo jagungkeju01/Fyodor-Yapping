@@ -99,20 +99,13 @@ const RECIPES = [
     ingredients: ["6 buah nugget ayam", "4 buah sosis", "150 g kentang goreng beku", "6 buah chicken popcorn atau camilan pilihan", "Saus tomat secukupnya", "Mayones secukupnya", "Minyak secukupnya untuk memasak"],
     steps: ["Siapkan semua bahan sesuai petunjuk kemasan.", "Goreng atau panggang nugget hingga matang.", "Masak sosis hingga matang dan berwarna kecokelatan.", "Goreng kentang hingga renyah.", "Masak chicken popcorn hingga matang sempurna.", "Tiriskan semua bahan dan tata di piring saji.", "Tambahkan saus tomat dan mayones, lalu sajikan selagi hangat."]
   },
-    {
-    id: "ciu-sehat", name: "Ciu Sehat", category: "Minuman", author: "TINGGSFOOD", time: 10, servings: 2,
-    image: "ciu-sehat.jpg",
-    description: "Minuman dengan nama Ciu Sehat. Deskripsi dan komposisi perlu disesuaikan dengan minuman pada gambar.",
-    ingredients: ["Bahan minuman sesuai resep asli", "Bahan cair sesuai resep asli", "Es batu secukupnya, opsional"],
-    steps: ["Siapkan bahan sesuai resep asli.", "Campurkan bahan dengan takaran yang sesuai.", "Aduk hingga tercampur rata.", "Sajikan sesuai petunjuk resep."]
-    },
-    {
-    id: "amer-sehat", name: "Amer Sehat", category: "Soto & Sup", author: "TINGGSFOOD", time: 10, servings: 2,
-    image: "amer-sehat.jpg",
-    description: "Minuman yang ditambahkan ke koleksi TINGGSFOOD.",
-    ingredients: ["Bahan sesuai resep asli"],
-    steps: ["Siapkan bahan sesuai resep asli.", "Sajikan sesuai petunjuk resep."]
-  },
+   {
+  id: "jus-mangga", name: "Jus Mangga Segar", category: "Minuman", author: "TINGGSFOOD", time: 10, servings: 2,
+  image: "jus-mangga.jpg",
+  description: "Jus mangga segar dengan rasa manis alami dan tekstur lembut, cocok dinikmati saat cuaca panas.",
+  ingredients: ["2 buah mangga matang", "200 ml air dingin", "100 ml susu cair", "1-2 sdm gula pasir (opsional)", "Es batu secukupnya"],
+  steps: ["Kupas mangga dan potong daging buahnya.", "Masukkan mangga, air dingin, susu cair, dan gula ke dalam blender.", "Blender hingga halus dan tercampur rata.", "Tuangkan ke dalam gelas dan tambahkan es batu sesuai selera.", "Jus mangga segar siap disajikan."]
+},
 ];
 
 
