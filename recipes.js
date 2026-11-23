@@ -107,13 +107,6 @@ const RECIPES = [
     steps: ["Siapkan bahan sesuai resep asli.", "Campurkan bahan dengan takaran yang sesuai.", "Aduk hingga tercampur rata.", "Sajikan sesuai petunjuk resep."]
     },
     {
-    id: "ciu-sehat", name: "Ciu Sehat", category: "Soto & Sup", author: "TINGGSFOOD", time: 10, servings: 2,
-    image: "ciu-sehat.jpg",
-    description: "Minuman yang ditambahkan ke koleksi TINGGSFOOD.",
-    ingredients: ["Bahan sesuai resep asli"],
-    steps: ["Siapkan bahan sesuai resep asli.", "Sajikan sesuai petunjuk resep."]
-  },
-    {
     id: "amer-sehat", name: "Amer Sehat", category: "Soto & Sup", author: "TINGGSFOOD", time: 10, servings: 2,
     image: "amer-sehat.jpg",
     description: "Minuman yang ditambahkan ke koleksi TINGGSFOOD.",
