@@ -29,23 +29,61 @@
 
   
 
-<section class="hero-banner">
-  <div class="hero-content">
-    <span class="hero-label">SELAMAT DATANG DI TINGGSFOOD</span>
-    <h1>Temukan Resep Favoritmu</h1>
-    <p>
-      Inspirasi masakan rumahan, camilan, dan hidangan lezat
-      untuk menemani setiap momen.
-    </p>
-    <a href="#recipeGrid" class="hero-button">
-      Jelajahi Resep
-    </a>
+
+<section class="hero hero-with-image" id="beranda">
+  <div class="container hero-layout">
+    <div class="hero-content">
+      <span class="eyebrow">
+        <span class="eyebrow-dot"></span>
+        IDE MASAK SETIAP HARI
+      </span>
+
+      <h1>Mau masak apa<br><em>hari ini?</em></h1>
+
+      <p>
+        Temukan resep rumahan yang sederhana, lezat,
+        dan cocok untuk menemani hari-harimu.
+      </p>
+
+      <form class="search-form" id="searchForm">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Cari resep favoritmu..."
+          autocomplete="off"
+          aria-label="Cari resep"
+        >
+        <button class="button button-primary" type="submit">
+          Cari resep
+        </button>
+      </form>
+
+      <div class="popular-searches">
+        <span>Populer:</span>
+        <button type="button" data-search="ayam">Ayam</button>
+        <button type="button" data-search="sambal">Sambal</button>
+        <button type="button" data-search="sayur">Sayuran</button>
+      </div>
+
+      <a class="hero-button" href="#jelajahi">
+        Jelajahi Resep →
+      </a>
+    </div>
+
+    <div class="hero-photo">
+      <img src="juna.jpg" alt="Hidangan pilihan TINGGSFOOD">
+      <div class="hero-photo-caption">
+        <span>INSPIRASI DAPUR</span>
+        <strong>Hidangan lezat, setiap hari.</strong>
+      </div>
+    </div>
   </div>
 
-  <div class="hero-image">
-    <img src="juna.jpg" alt="Hidangan lezat TINGGSFOOD">
-  </div>
+  <div class="hero-decoration decor-one"></div>
+  <div class="hero-decoration decor-two"></div>
 </section>
+
 
 
   <main id="app">
